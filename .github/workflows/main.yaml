@@ -17,6 +17,5 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - uses: actions/checkout@master
-    - uses: actions/setup-go@v1
-    - run: go run main.go
+    - uses: node12
+    - run: npm run main.js
