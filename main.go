@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"context"
+	"fmt"
+)
 
 func main() {
-	fmt.Printf("CHEESE")
+	fmt.Printf(context.Background().Value())
 }
